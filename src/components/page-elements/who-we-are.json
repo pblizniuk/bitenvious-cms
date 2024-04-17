@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_elements_who_we_ares",
+  "info": {
+    "displayName": "Who We Are",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

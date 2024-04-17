@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_elements_testimonials_components",
+  "info": {
+    "displayName": "Testimonials Component",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "text"
+    }
+  }
+}

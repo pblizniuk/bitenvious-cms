@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_page_elements_cta_sections",
+  "info": {
+    "displayName": "CTASection",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "ButtonLink": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

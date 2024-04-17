@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_elements_page_titles",
+  "info": {
+    "displayName": "PageTitleSection",
+    "icon": "alien",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

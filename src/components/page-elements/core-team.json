@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_elements_core_teams",
+  "info": {
+    "displayName": "Core Team",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "TeamMember": {
+      "displayName": "Team Member",
+      "type": "component",
+      "repeatable": true,
+      "component": "sub-elements.team-member"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_elements_image_carousel_items",
+  "info": {
+    "displayName": "ImageCarouselItems",
+    "icon": "dashboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "AltText": {
+      "type": "string"
+    }
+  }
+}

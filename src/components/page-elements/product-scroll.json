@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_elements_product_scrolls",
+  "info": {
+    "displayName": "Product Scroll",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "productScroll": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-elements.cta"
+    }
+  }
+}

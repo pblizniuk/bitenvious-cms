@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_elements_projects",
+  "info": {
+    "displayName": "Projects",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

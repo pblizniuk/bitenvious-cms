@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_elements_advanced_info_sections",
+  "info": {
+    "displayName": "AdvancedInfoSection",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    },
+    "url": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    }
+  }
+}

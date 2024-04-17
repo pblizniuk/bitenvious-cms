@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_elements_info_section_items",
+  "info": {
+    "displayName": "InfoSectionItem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

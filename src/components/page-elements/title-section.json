@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_elements_title_sections",
+  "info": {
+    "displayName": "TitleSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

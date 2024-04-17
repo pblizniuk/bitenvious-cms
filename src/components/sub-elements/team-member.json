@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sub_elements_team_members",
+  "info": {
+    "displayName": "Team Member",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Location": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sub_elements_section_sets",
+  "info": {
+    "displayName": "SectionSet",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

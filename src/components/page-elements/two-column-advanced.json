@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_elements_two_column_advanceds",
+  "info": {
+    "displayName": "TwoColumnAdvanced",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "displayName": "AdvancedInfoSection",
+      "type": "component",
+      "repeatable": true,
+      "component": "page-elements.advanced-info-section"
+    }
+  }
+}

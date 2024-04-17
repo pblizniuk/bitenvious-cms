@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_elements_two_column_info_sections",
+  "info": {
+    "displayName": "TwoColumnInfoSection",
+    "icon": "grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SectionSet": {
+      "displayName": "SectionSet",
+      "type": "component",
+      "repeatable": true,
+      "component": "sub-elements.section-set"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_elements_info_sections",
+  "info": {
+    "displayName": "InfoSection",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "InfoItem": {
+      "displayName": "InfoSectionItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "sub-elements.info-section-item"
+    },
+    "ShowItemNumbering": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

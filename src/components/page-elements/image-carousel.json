@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_elements_image_carousels",
+  "info": {
+    "displayName": "Image Carousel",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Images": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

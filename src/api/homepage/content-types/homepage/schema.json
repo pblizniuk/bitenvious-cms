@@ -1,0 +1,67 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "HeroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "CTA": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-elements.cta"
+    },
+    "InfoSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-elements.info-section"
+    },
+    "SectionTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-elements.title-section"
+    },
+    "ImageCarousel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-elements.image-carousel"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "page-elements.cta-section",
+        "page-elements.cta",
+        "page-elements.image-carousel",
+        "page-elements.info-section",
+        "page-elements.page-title",
+        "page-elements.title-section",
+        "page-elements.two-column-info-section",
+        "page-elements.testimonials-component",
+        "page-elements.product-scroll"
+      ]
+    }
+  }
+}
