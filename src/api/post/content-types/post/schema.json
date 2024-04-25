@@ -32,9 +32,6 @@
     "publishedDate": {
       "type": "date"
     },
-    "author": {
-      "type": "string"
-    },
     "timeToRead": {
       "type": "string"
     },
@@ -48,6 +45,12 @@
       "relation": "manyToOne",
       "target": "api::category.category",
       "inversedBy": "posts"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::author.author",
+      "inversedBy": "postsByAuthor"
     }
   }
 }
