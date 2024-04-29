@@ -29,26 +29,6 @@
         "audios"
       ]
     },
-    "CTA": {
-      "type": "component",
-      "repeatable": true,
-      "component": "page-elements.cta"
-    },
-    "InfoSection": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page-elements.info-section"
-    },
-    "SectionTitle": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page-elements.title-section"
-    },
-    "ImageCarousel": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page-elements.image-carousel"
-    },
     "blocks": {
       "type": "dynamiczone",
       "components": [

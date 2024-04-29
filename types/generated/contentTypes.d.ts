@@ -927,10 +927,6 @@ export interface ApiHomepageHomepage extends Schema.SingleType {
     Title: Attribute.String;
     Description: Attribute.Text;
     HeroImage: Attribute.Media;
-    CTA: Attribute.Component<'page-elements.cta', true>;
-    InfoSection: Attribute.Component<'page-elements.info-section'>;
-    SectionTitle: Attribute.Component<'page-elements.title-section'>;
-    ImageCarousel: Attribute.Component<'page-elements.image-carousel'>;
     blocks: Attribute.DynamicZone<
       [
         'page-elements.cta-section',
