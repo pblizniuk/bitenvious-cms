@@ -200,6 +200,7 @@ export interface SubElementsInfoSectionItem extends Schema.Component {
   attributes: {
     Title: Attribute.String;
     Description: Attribute.Text;
+    htmlContent: Attribute.Blocks;
   };
 }
 

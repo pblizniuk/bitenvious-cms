@@ -1025,7 +1025,9 @@ export interface ApiProjectProject extends Schema.CollectionType {
         'page-elements.cta',
         'page-elements.image-carousel',
         'page-elements.info-section',
-        'page-elements.title-section'
+        'page-elements.title-section',
+        'page-elements.two-column-advanced',
+        'page-elements.advanced-info-section'
       ]
     >;
     slug: Attribute.UID<'api::project.project', 'title'>;

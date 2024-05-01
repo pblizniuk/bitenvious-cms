@@ -11,6 +11,9 @@
     },
     "Description": {
       "type": "text"
+    },
+    "htmlContent": {
+      "type": "blocks"
     }
   }
 }
