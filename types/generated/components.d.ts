@@ -15,6 +15,17 @@ export interface PageElementsAdvancedInfoSection extends Schema.Component {
   };
 }
 
+export interface PageElementsBlogTeaser extends Schema.Component {
+  collectionName: 'components_page_elements_blog_teasers';
+  info: {
+    displayName: 'BlogTeaser';
+    icon: 'apps';
+  };
+  attributes: {
+    title: Attribute.String;
+  };
+}
+
 export interface PageElementsCoreTeam extends Schema.Component {
   collectionName: 'components_page_elements_core_teams';
   info: {
@@ -235,6 +246,7 @@ declare module '@strapi/types' {
   export module Shared {
     export interface Components {
       'page-elements.advanced-info-section': PageElementsAdvancedInfoSection;
+      'page-elements.blog-teaser': PageElementsBlogTeaser;
       'page-elements.core-team': PageElementsCoreTeam;
       'page-elements.cta-section': PageElementsCtaSection;
       'page-elements.cta': PageElementsCta;

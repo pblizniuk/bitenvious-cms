@@ -937,7 +937,8 @@ export interface ApiHomepageHomepage extends Schema.SingleType {
         'page-elements.title-section',
         'page-elements.two-column-info-section',
         'page-elements.testimonials-component',
-        'page-elements.product-scroll'
+        'page-elements.product-scroll',
+        'page-elements.blog-teaser'
       ]
     >;
     createdAt: Attribute.DateTime;

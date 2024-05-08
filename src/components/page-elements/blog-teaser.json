@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_elements_blog_teasers",
+  "info": {
+    "displayName": "BlogTeaser",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
