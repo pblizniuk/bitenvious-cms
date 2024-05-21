@@ -810,7 +810,8 @@ export interface ApiAboutAbout extends Schema.SingleType {
         'page-elements.cta-section',
         'page-elements.cta',
         'page-elements.image-carousel',
-        'page-elements.title-section'
+        'page-elements.title-section',
+        'page-elements.featured-project'
       ]
     >;
     title: Attribute.String;
@@ -938,7 +939,8 @@ export interface ApiHomepageHomepage extends Schema.SingleType {
         'page-elements.two-column-info-section',
         'page-elements.testimonials-component',
         'page-elements.product-scroll',
-        'page-elements.blog-teaser'
+        'page-elements.blog-teaser',
+        'page-elements.featured-project'
       ]
     >;
     createdAt: Attribute.DateTime;

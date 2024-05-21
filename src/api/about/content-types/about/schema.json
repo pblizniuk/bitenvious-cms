@@ -23,7 +23,8 @@
         "page-elements.cta-section",
         "page-elements.cta",
         "page-elements.image-carousel",
-        "page-elements.title-section"
+        "page-elements.title-section",
+        "page-elements.featured-project"
       ]
     },
     "title": {

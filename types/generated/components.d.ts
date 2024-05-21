@@ -67,6 +67,17 @@ export interface PageElementsCta extends Schema.Component {
   };
 }
 
+export interface PageElementsFeaturedProject extends Schema.Component {
+  collectionName: 'components_page_elements_featured_projects';
+  info: {
+    displayName: 'Featured Project';
+    icon: 'cube';
+  };
+  attributes: {
+    title: Attribute.String;
+  };
+}
+
 export interface PageElementsImageCarousel extends Schema.Component {
   collectionName: 'components_page_elements_image_carousels';
   info: {
@@ -250,6 +261,7 @@ declare module '@strapi/types' {
       'page-elements.core-team': PageElementsCoreTeam;
       'page-elements.cta-section': PageElementsCtaSection;
       'page-elements.cta': PageElementsCta;
+      'page-elements.featured-project': PageElementsFeaturedProject;
       'page-elements.image-carousel': PageElementsImageCarousel;
       'page-elements.info-section': PageElementsInfoSection;
       'page-elements.page-title': PageElementsPageTitle;

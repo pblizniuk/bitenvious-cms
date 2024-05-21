@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_elements_featured_projects",
+  "info": {
+    "displayName": "Featured Project",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
